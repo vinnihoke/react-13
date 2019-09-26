@@ -6,3 +6,5 @@ const initialState = [
 ];
 
 const store = (state = initialState, action) => state;
+
+export default store;

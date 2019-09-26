@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@welldone-software/why-did-you-render": "^3.3.5",
     "bulma": "0.7.5",
     "node-sass": "^4.12.0",
     "react": "16.8.6",

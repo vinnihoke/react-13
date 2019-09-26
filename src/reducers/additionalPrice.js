@@ -6,6 +6,8 @@ const additionalPrice = (state = 0, action) => {
       return state + action.payload.price;
     case REMOVE_FEATURE:
       return state - action.payload.price;
+    default:
+      return state;
   }
 };
 

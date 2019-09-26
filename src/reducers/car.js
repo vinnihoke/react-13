@@ -22,6 +22,8 @@ const car = (state = initialState, action) => {
           feature => feature.id !== action.payload.id
         )
       };
+    default:
+      return state;
   }
 };
 
